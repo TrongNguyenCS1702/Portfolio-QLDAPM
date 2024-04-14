@@ -1,17 +1,14 @@
 {
-  "name": "nuxt-app",
+  "name": "content-wind-template",
   "private": true,
-  "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
   },
-  "dependencies": {
-    "nuxt": "^3.11.2",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+  "devDependencies": {
+    "content-wind": "latest",
+    "nuxt": "latest"
   }
 }
